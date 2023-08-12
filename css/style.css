@@ -1,0 +1,351 @@
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root {
+  --color-primary-dark: #011C44;
+  --color-primery-light: #2B7FFF;
+  --color-primery-light1:#FFFFFF;
+  --color-brand-light: #819b57;
+  --color-brand-dark: #465929;
+}
+
+/*Base*/
+body {
+  color: var(--color-primary-dark);
+  font-family: "", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*Button*/
+.button {
+  border-radius: 32px;
+background: var(--beauty-landing-22, #2B7FFF);
+}
+.button {
+  color: black;
+}
+
+.button:hover {
+  color: var(color-primery-light) #2B7FFF;
+  background-color: transparent;
+}
+/*Link*/
+.header-link {
+  color: var(--color-brand-light) #faf4ea;
+  text-decoration: none;
+}
+
+.header-link:hover {
+  font-weight: 600;
+  color: var(--color-brand-light);
+}
+
+/*Hero section*/
+.hero-title {
+  color: #2B7FFF;
+  text-align: center;
+  font-size: 128px;
+  font-weight: 900;
+}
+.hero-title .accent {
+  color: var(--color-brand-light);
+}
+
+.hero-section {
+  padding: 272px 0;
+  background-image: url('../images/womens.jpg');
+  background-repeat: no-repeat;
+  background: position center;
+  background-size: cover;
+}
+
+.header-nav {
+text-align: left;
+}
+
+.flex {
+  text-align: right;
+}
+
+/*Advantages section*/
+
+.advantages-list {
+display: flex;
+max-width: 100%;
+gap: 30px;
+text-align: center;
+background-color: transparent;
+}
+
+.advantages-list {
+  color: #faf4ea;
+  background-color: transparent;
+  background-color: var(--color-primary-dark);
+}
+
+.advantages-item {
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.section-title {
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 1.3;
+}
+
+.section-title {
+  color: var(color-primary-dark) #011C44;
+}
+
+/* Traditions-section */
+.traditions-section .brand {
+  color: var(--color-brand-light);
+  font-weight: 600;
+}
+.traditions-section .uppercase {
+  color: var(--color-brand-light);
+  text-transform: uppercase;
+}
+
+/* why section */
+.formats-conteiner {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.formats-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.formats-item {
+  flex-basis: calc((100% - 40px) / 3);
+}
+
+.format-card {
+  height: 444px;
+  padding: 24px;
+  background: linear-gradient(180.05deg, rgba(1, 28, 68, 0) 48.53%, rgba(1, 28, 68, 0.725825) 84.61%, #011C44 101.39%);
+}
+.fotmats-title {
+  margin-bottom: 80px;
+}
+
+.format-title {
+  font-weight: 600;
+  font-size: 24px;
+}
+.format-text {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+
+
+
+/* beauty landing 2/Н1 title */
+font-family: Play;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+/* format-section */
+.format-title {
+  font-weight: 600;
+  font-size: 24px;
+}
+.format-text {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+img {
+    border-radius: 50%;
+    width: 335px;
+height: 328px;
+flex-shrink: 0;
+}
+
+/*beauty-section*/
+.beauty-text {
+  color: var(--beauty-landing-22, #2B7FFF);
+font-family: Play;
+font-size: 140px;
+font-style: normal;
+font-weight: 700;
+line-height: 114px; /* 81.429% */
+text-transform: capitalize;
+font-style: var(color-primery-light:) #2B7FFF;
+}
+
+
+@import "http://fonts.googleapis.com/css?family=Raleway";
+body{
+font-family:'Raleway',sans-serif
+}
+img#logo{
+margin-left:90px
+}
+div#first{
+width:350px;
+height:auto;
+margin:50px auto 0;
+padding:50px;
+background-color:#EEE;
+color:#333;
+border:2px solid #C2D6FF;
+border-radius:40px 0 40px 0
+}
+label{
+font-size:15px;
+font-weight:700
+}
+input#fname{
+background-image:url(../images/icon_name.png);
+background-repeat:no-repeat;
+background-position:6px;
+border:1px solid #DADADA;
+margin-top:10px;
+margin-bottom:10px;
+padding-left:35px;
+width:310px;
+height:30px;
+font-size:14px;
+box-shadow:0 0 10px;
+-webkit-box-shadow:0 0 10px;
+/* For I.E */
+-moz-box-shadow:0 0 10px;
+/* For Mozilla Web Browser */
+border-radius:5px;
+-webkit-border-radius:5px;
+/* For I.E */
+-moz-border-radius:5px
+/* For Mozilla Web Browser */
+}
+input#email{
+background-image:url(../images/email.png);
+background-repeat:no-repeat;
+background-position:6px;
+border:1px solid #DADADA;
+margin-top:10px;
+margin-bottom:10px;
+padding-left:35px;
+width:310px;
+height:30px;
+font-size:14px;
+box-shadow:0 0 10px;
+-webkit-box-shadow:0 0 10px;
+/* For I.E */
+-moz-box-shadow:0 0 10px;
+/* For Mozilla Web Browser */
+border-radius:5px;
+-webkit-border-radius:5px;
+/* For I.E */
+-moz-border-radius:5px
+/* For Mozilla Web Browser */
+}
+input#contact{
+background-image:url(../images/mobile.png);
+background-repeat:no-repeat;
+background-position:6px;
+border:1px solid #DADADA;
+margin-top:10px;
+margin-bottom:10px;
+padding-left:35px;
+width:310px;
+height:30px;
+font-size:14px;
+box-shadow:0 0 10px;
+-webkit-box-shadow:0 0 10px;
+/* For I.E */
+-moz-box-shadow:0 0 10px;
+/* For Mozilla Web Browser */
+border-radius:5px;
+-webkit-border-radius:5px;
+/* For I.E */
+-moz-border-radius:5px
+/* For Mozilla Web Browser */
+}
+input#address{
+background-image:url(../images/home.png);
+background-repeat:no-repeat;
+background-position:6px;
+border:1px solid #DADADA;
+margin-top:10px;
+margin-bottom:10px;
+padding-left:35px;
+width:310px;
+height:30px;
+font-size:14px;
+box-shadow:0 0 10px;
+-webkit-box-shadow:0 0 10px;
+/* For I.E */
+-moz-box-shadow:0 0 10px;
+/* For Mozilla Web Browser */
+border-radius:5px;
+-webkit-border-radius:5px;
+/* For I.E */
+-moz-border-radius:5px
+/* For Mozilla Web Browser */
+}
+input#submit {
+background-color:#cc7a66;
+border-radius:5px;
+border:none;
+padding:10px 25px;
+color:#FFF;
+text-shadow:1px 1px 1px #949494;
+margin-left:120px
+}
+input#submit:hover{
+background-color:#FF9980
+}
+
+/*FOOTER*/
+
+.footer::after {
+  position: absolute;
+  width: 347px;
+  height: 152px;
+  right: 0;
+  bottom: 0;
+  background-color: url('../images/drops.svg');
+}
+
+
+.bgc {
+  padding: 22px 0;
+  background-image: url('../images/fon.jpg');
+  background-repeat: no-repeat;
+  background: position center;
+  background-size: cover;
+}
+
+.data {
+ 
+}
