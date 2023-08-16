@@ -32,6 +32,7 @@ body {
   line-height: 1.5;
 }
 
+
 ul {
   list-style-type: none;
 }
@@ -129,6 +130,11 @@ background-color: transparent;
 }
 
 /* why section */
+
+.border-card {
+  border-radius: 4px 4px 4px 200px;
+}
+
 .formats-conteiner {
   display: flex;
   align-items: center;
@@ -167,12 +173,31 @@ background-color: transparent;
 
 
 /* beauty landing 2/Н1 title */
-font-family: Play;
+
+
+.css-changes {
+/*  gap: 100px;*/
+justify-content: center;
+}
+
+.changes {
+  font-family: Play;
 font-size: 64px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+
+.changes-text {
+color: var(--color-primery-light: #2B7FFF);
+font-family: Play;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+}
+
 
 /* format-section */
 .format-title {
@@ -182,6 +207,12 @@ line-height: normal;
 .format-text {
   font-weight: 300;
   font-size: 14px;
+}
+
+.formats-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 img {
@@ -216,7 +247,7 @@ width:350px;
 height:auto;
 margin:50px auto 0;
 padding:50px;
-background-color:#EEE;
+background-image: url(../images/fon.jpg);
 color:#333;
 border:2px solid #C2D6FF;
 border-radius:40px 0 40px 0
@@ -314,16 +345,16 @@ border-radius:5px;
 /* For Mozilla Web Browser */
 }
 input#submit {
-background-color:#cc7a66;
+background-color:;
 border-radius:5px;
 border:none;
 padding:10px 25px;
-color:#FFF;
+color:#2B7FFF;
 text-shadow:1px 1px 1px #949494;
 margin-left:120px
 }
 input#submit:hover{
-background-color:#FF9980
+background-color: var(--color-primery-light: #2B7FFF);
 }
 
 /*FOOTER*/
@@ -335,6 +366,16 @@ background-color:#FF9980
   right: 0;
   bottom: 0;
   background-color: url('../images/drops.svg');
+}
+
+.footer {
+
+}
+
+.footer-nav {
+  flex-basis: 50%;
+  display: flex;
+  gap: 20px;
 }
 
 
